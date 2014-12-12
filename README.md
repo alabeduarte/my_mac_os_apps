@@ -13,7 +13,7 @@ my Mac OS apps
 ### The Apps
 
 ```
-brew cask install appcleaner
+brew cask install appcleaner && \
 brew cask install alfred && \
 brew cask install caffeine && \
 brew cask install spectacle && \
