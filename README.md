@@ -26,5 +26,12 @@ brew cask install iterm2 && \
 brew cask install vagrant && \
 brew cask install virtualbox && \
 brew cask install vlc && \
-brew cask install slack && \
+brew cask install slack
+```
+
+### Development
+
+```
+brew install tmux && \
+brew install rbenv
 ```
