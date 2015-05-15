@@ -33,5 +33,6 @@ brew cask install slack
 
 ```
 brew install tmux && \
-brew install rbenv
+brew install rbenv \
+brew install tmux
 ```
