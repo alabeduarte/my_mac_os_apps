@@ -2,7 +2,9 @@ my Mac OS apps
 ========
 
 ### Home Brew
-`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+```
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
 
 ### Oh My zshell
 `curl -L http://install.ohmyz.sh | sh`
