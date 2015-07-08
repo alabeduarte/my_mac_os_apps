@@ -24,6 +24,7 @@ brew cask install copy && \
 brew cask install google-chrome && \
 brew cask install slack && \
 brew cask install vlc && \
+brew cask install techstoreclub-simple-comic
 ```
 
 ### Development
