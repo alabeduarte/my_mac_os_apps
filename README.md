@@ -38,3 +38,6 @@ brew install rbenv && \
 sh install_jenv && \
 sh install_nvm
 ```
+
+### Vim files
+Clone https://github.com/alabeduarte/vim-files and run their install command on README.md
