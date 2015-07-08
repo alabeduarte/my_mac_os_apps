@@ -35,5 +35,6 @@ brew cask install virtualbox && \
 brew cask install vagrant && \
 brew install tmux && \
 brew install rbenv && \
+sh install_jenv && \
 brew install tmux
 ```
