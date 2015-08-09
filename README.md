@@ -34,9 +34,10 @@ brew cask install techstoreclub-simple-comic
 ```
 brew cask install iterm2 && \
 brew cask install virtualbox && \
+brew install rbenv && \
 brew cask install vagrant && \
 brew install tmux && \
-brew install rbenv && \
+sh install_tmuxinator && \
 sh install_jenv && \
 sh install_nvm
 ```
