@@ -5,6 +5,7 @@ echo 'Prepare to install development tools'
 brew install rbenv
 
 brew install tmux
+echo 'export TERM=xterm-256color' >> ~/.zshrc
 
 sh ./development-tools/install_tmuxinator.sh
 
