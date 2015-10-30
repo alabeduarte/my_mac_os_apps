@@ -7,7 +7,7 @@ brew cask install alfred
 brew cask install caffeine
 brew cask install spectacle
 brew cask install dropbox
-brew cask install onepassword
+brew cask install 1password
 brew cask install google-chrome
 brew cask install google-drive
 brew cask install copy
