@@ -3,6 +3,7 @@
 echo 'Prepare to install development tools'
 
 brew install rbenv
+echo 'if which rbenv > /dev/null; then eval "$(rbenv init - zsh)"; fi' >> ~/.zshrc
 
 brew install tmux
 echo 'export TERM=xterm-256color' >> ~/.zshrc
