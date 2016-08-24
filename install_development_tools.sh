@@ -15,7 +15,8 @@ brew cask install iterm2
 brew cask install virtualbox
 
 # requires root privileges
-brew cask install dockertoolbox
+brew cask install docker
+# open /Applications/Docker.app
 
 brew cask install vagrant
 echo 'alias vg="vagrant"' >> ~/.zshrc
