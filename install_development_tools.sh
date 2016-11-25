@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+alias diff='git --no-pager diff --color=auto --no-ext-diff --no-index'
+git config --global diff.compactionHeuristic true
 
 echo 'Prepare to install development tools'
 
