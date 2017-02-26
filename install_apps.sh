@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -x
+
 echo 'Prepare to install apps'
 
 brew cask install appcleaner
