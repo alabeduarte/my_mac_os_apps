@@ -10,8 +10,6 @@ echo 'if which rbenv > /dev/null; then eval "$(rbenv init - zsh)"; fi' >> ~/.zsh
 brew install tmux
 echo 'export TERM=xterm-256color' >> ~/.zshrc
 
-sh ./development-tools/install_tmuxinator.sh
-
 brew cask install iterm2
 
 brew cask install virtualbox
