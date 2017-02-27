@@ -12,8 +12,6 @@ brew cask install dropbox
 brew cask install 1password
 brew cask install google-chrome
 brew cask install google-drive
-brew cask install copy
 brew cask install slack
 brew cask install vlc
-brew cask install techstoreclub-simple-comic
 brew install htop
