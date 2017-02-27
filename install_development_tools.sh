@@ -4,6 +4,9 @@ set -x
 alias diff='git --no-pager diff --color=auto --no-ext-diff --no-index'
 git config --global diff.compactionHeuristic true
 
+echo 'Configuring better git log'
+git config --global alias.l "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+
 echo 'Prepare to install development tools'
 
 brew install rbenv
