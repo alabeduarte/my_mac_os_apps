@@ -12,17 +12,23 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 ### Brew Cask
 `brew install caskroom/cask/brew-cask`
 
+### Setup
+
+```
+$ make install
+```
+
 ### The Apps
 
 ```
-./install_apps.sh
+$ make install_apps
 ```
 
 ### Development Tools
 
 ```
-./install_development_tools
+$ make install_development_tools
 ```
 
-### Vim files (already included on development tools script!)
+### Vim files (it's already included on development tools script!)
 Clone https://github.com/alabeduarte/vim-files and run their install command on README.md
