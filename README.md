@@ -9,9 +9,6 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 ### Oh My zshell
 `curl -L http://install.ohmyz.sh | sh`
 
-### Brew Cask
-`brew install caskroom/cask/brew-cask`
-
 ### Setup
 
 ```
