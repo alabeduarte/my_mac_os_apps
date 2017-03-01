@@ -16,6 +16,9 @@ git config --global alias.br branch
 git config --global alias.ci commit
 git config --global alias.st status
 
+echo 'Git extras'
+brew install git-extras
+
 echo 'Prepare to install development tools'
 
 brew install rbenv
