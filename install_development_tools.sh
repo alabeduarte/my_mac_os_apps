@@ -47,3 +47,5 @@ sh ./development-tools/install_nvm.sh
 
 sh ./development-tools/install_vim_files.sh
 echo 'alias v="vim"' >> ~/.zshrc
+
+brew install yarn
