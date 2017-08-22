@@ -15,3 +15,4 @@ brew cask install slack
 brew cask install vlc
 brew install htop
 brew cask install authy-desktop
+brew cask install keybase
