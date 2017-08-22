@@ -16,6 +16,9 @@ git config --global alias.br branch
 git config --global alias.ci commit
 git config --global alias.st status
 
+echo 'GPG'
+brew install gpg2
+
 echo 'Git extras'
 brew install git-extras
 
