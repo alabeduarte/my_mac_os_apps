@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 set -x
 
+echo 'Install git using brew'
+brew install git
+
 alias diff='git --no-pager diff --color=auto --no-ext-diff --no-index'
 git config --global diff.compactionHeuristic true
 
