@@ -45,6 +45,7 @@ brew cask install virtualbox
 
 # requires root privileges
 brew cask install docker
+brew install docker-clean
 # open /Applications/Docker.app
 
 brew cask install vagrant
