@@ -33,6 +33,8 @@ brew install the_silver_searcher
 
 brew install wget
 
+brew install httpie
+
 brew install rbenv
 echo 'if which rbenv > /dev/null; then eval "$(rbenv init - zsh)"; fi' >> ~/.zshrc
 
