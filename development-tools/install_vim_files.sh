@@ -10,7 +10,7 @@ clone_or_pull () {
     git pull origin master
   else
     echo "Clone $1"
-    git clone git@github.com:alabeduarte/$1.git $1
+    git clone https://github.com/alabeduarte/$1.git $1
   fi
   pwd
   echo "Going back to $root_dir"
