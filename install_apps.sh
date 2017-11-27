@@ -14,5 +14,5 @@ brew cask install google-drive
 brew cask install slack
 brew cask install vlc
 brew install htop
-brew cask install authy-desktop
+brew cask install authy
 brew cask install keybase
