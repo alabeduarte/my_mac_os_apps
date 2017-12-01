@@ -43,15 +43,11 @@ echo 'export TERM=xterm-256color' >> ~/.zshrc
 
 brew cask install iterm2
 
-brew cask install virtualbox
-
 # requires root privileges
 brew cask install docker
 brew install docker-clean
 # open /Applications/Docker.app
 
-brew cask install vagrant
-echo 'alias vg="vagrant"' >> ~/.zshrc
 
 sh ./development-tools/install_jenv.sh
 sh ./development-tools/install_nvm.sh
