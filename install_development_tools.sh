@@ -38,16 +38,12 @@ brew install httpie
 brew install rbenv
 echo 'if which rbenv > /dev/null; then eval "$(rbenv init - zsh)"; fi' >> ~/.zshrc
 
-brew install tmux
-echo 'export TERM=xterm-256color' >> ~/.zshrc
-
 brew cask install iterm2
 
 # requires root privileges
 brew cask install docker
 brew install docker-clean
 # open /Applications/Docker.app
-
 
 sh ./development-tools/install_jenv.sh
 sh ./development-tools/install_nvm.sh
