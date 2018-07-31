@@ -21,6 +21,12 @@ git config --global alias.st status
 
 brew install gitup
 
+echo 'Command-line fuzzy finder'
+brew install fzf
+
+# To install useful key bindings and fuzzy completion:
+$(brew --prefix)/opt/fzf/install
+
 echo 'GPG'
 brew install gpg2
 
