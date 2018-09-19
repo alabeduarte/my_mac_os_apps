@@ -27,6 +27,9 @@ brew install fzf
 # To install useful key bindings and fuzzy completion:
 $(brew --prefix)/opt/fzf/install
 
+echo 'PS tree'
+brew install pstree
+
 echo 'GPG'
 brew install gpg2
 
