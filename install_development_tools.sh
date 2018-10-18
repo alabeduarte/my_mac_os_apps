@@ -51,6 +51,7 @@ brew cask install iterm2
 
 # requires root privileges
 brew cask install docker
+brew cask install kitematic
 
 sh ./development-tools/install_jenv.sh
 sh ./development-tools/install_nvm.sh
