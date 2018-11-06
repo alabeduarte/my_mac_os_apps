@@ -1,5 +1,7 @@
-my Mac OS apps/tools
+[DEPRECATED] my Mac OS apps/tools
 ========
+
+_This repository is deprecated, please check https://github.com/alabeduarte/dotfiles instead._
 
 ### Home Brew
 ```
